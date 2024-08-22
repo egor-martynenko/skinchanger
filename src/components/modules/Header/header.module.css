@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  width: 100vw;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 2;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__burger {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 25px;
+}
+.header__burger span {
+  padding-top: 2px;
+}
+
+.header__logo {
+  font-size: 35px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .header__container {
+    flex-direction: row-reverse;
+  }
+}

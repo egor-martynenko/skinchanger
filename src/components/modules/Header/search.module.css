@@ -1,0 +1,157 @@
+.wrapper {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 111;
+}
+.search_modal {
+  width: 850px;
+  height: 570px;
+  position: fixed;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333a47;
+  padding: 24px;
+  z-index: 101;
+}
+
+@media (max-width: 940px) {
+  .search_modal {
+    min-width: auto;
+    width: 700px;
+  }
+}
+
+@media (max-width: 780px) {
+  .search_modal {
+    width: 530px;
+  }
+}
+
+@media (max-width: 590px) {
+  .search_modal {
+    width: 370px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .search_modal {
+    width: 300px;
+  }
+}
+
+.search_modal__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  background-image: url(/img/close-small.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 590px) {
+  .search_modal__close {
+    top: 12px;
+    right: 12px;
+  }
+}
+
+.search_modal__title {
+  margin: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  color: white;
+}
+
+.search_modal__top {
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.search_modal__label {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search_modal__input {
+  width: 100%;
+  border: none;
+  background: rgba(255, 255, 255, 0.06);
+  height: 48px;
+  padding-left: 20px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.9);
+  padding-top: 18px;
+}
+
+.search_modal__floating_label {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.4);
+  transition:
+    top 0.2s ease-in-out,
+    font-size 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+.search_modal__input.with_value + .search_modal__floating_label {
+  top: 4px;
+  bottom: 10px;
+  font-size: 12px;
+  transition:
+    top 0.2s ease-in-out,
+    font-size 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  color: #e2c642;
+}
+.search_modal__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+  max-height: 390px;
+  padding-right: 10px;
+}
+.search_modal__item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.search_modal__item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.item_title {
+  width: 90%;
+  padding-top: 5px;
+}
+.price {
+  color: #e2c642;
+  font-size: 21px;
+  font-weight: 600;
+  height: min-content;
+  margin-top: auto;
+  text-align: end;
+  padding: 0 5px 5px 0;
+}

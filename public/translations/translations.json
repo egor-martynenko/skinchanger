@@ -1,0 +1,56 @@
+{
+  "en": {
+    "header": {
+      "menu_btn": "Menu",
+      "search": "Search"
+    },
+    "hero": {
+      "title": "ACCOUNTS AND B-BUCKS AT A GREAT PRICE",
+      "description": "Our website ensures secure transactions, fast delivery, and your ultimate satisfaction.",
+      "btn": "To the choice!",
+      "statistics": {
+        "skins": "Skins",
+        "accounts": "Accounts",
+        "transactions": "Transactions"
+      }
+    },
+    "advantages": {
+      "firstTitle": "Unlimited Support",
+      "firstTxt": "Experience unparalleled assistance with our Unlimited Support. Whether you have questions, encounter issues, or need help with your account, our dedicated team is here for you 24/7.",
+      "secTitle": "Fast Delivery",
+      "secTxt": "Enjoy the thrill of fast delivery! Once your transaction is complete, your new Fortnite account is delivered immediately. No waiting, just straight into the game.",
+      "thirdTitle": "Lifetime Warranty",
+      "thirdTxt": "Feel secure with our Lifetime Warranty. If you experience any issues with your account, our support team is available to provide immediate assistance. We stand by our products and offer account replacements when necessary."
+    },
+    "accounts": {
+      "newTitle": "new accounts"
+    }
+  },
+  "ru": {
+    "header": {
+      "menu_btn": "Меню",
+      "search": "Поиск"
+    },
+    "hero": {
+      "title": "АККАУНТЫ И В-БАКСЫ ПО ВЫГОДНОЙ ЦЕНЕ",
+      "description": "Наш веб-сайт гарантирует безопасные транзакции, быструю доставку и ваш максимальный комфорт.",
+      "btn": "К выбору!",
+      "statistics": {
+        "skins": "Скинов",
+        "accounts": "Аккаунтов",
+        "transactions": "Покупок"
+      }
+    },
+    "advantages": {
+      "firstTitle": "Неограниченная поддержка",
+      "firstTxt": "Получи беспрецедентную помощь от нашей тех. поддержки. Если у тебя есть вопросы, проблемы или нужна помощь с учетной записью, наша команда готова помочь тебе круглосуточно и без выходных.",
+      "secTitle": "Быстрая доставка",
+      "secTxt": "Наслаждайся быстрой доставкой! Как только транзакция будет завершена, твоя новая учетная запись Fortnite будет доставлена ​​немедленно. Никакого ожидания, сразу в игру.",
+      "thirdTitle": "Пожизненная гарантия",
+      "thirdTxt": "Ты в безопасности с нашей пожизненной гарантией. Если возникнут какие-либо проблемы с учетной записью, наша служба поддержки готова оказать немедленную помощь. Мы поддерживаем наши продукты и при необходимости предлагаем замену аккаунтов."
+    },
+    "accounts": {
+      "newTitle": "новые аккаунты"
+    }
+  }
+}
