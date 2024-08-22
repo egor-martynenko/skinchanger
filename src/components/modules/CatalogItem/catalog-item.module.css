@@ -17,10 +17,6 @@
   display: block;
   min-height: 318px;
   padding: 16px;
-  img {
-    margin: 0 auto;
-    transition: background 0.2s ease-in-out;
-  }
 }
 .title {
   padding-top: 16px;
